@@ -1,16 +1,77 @@
-# React + Vite
+# Generic SaaS Landing Page Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance, and fully configurable React landing page template for SaaS products. Built with **React**, **Tailwind CSS**, and **Framer Motion**.
 
-Currently, two official plugins are available:
+![Hero Screenshot](./src/assets/screenshots/Screenshot%20from%202025-12-24%2013-08-07.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- 🎨 **Fully Customizable Theme**: Change colors globally via a single config file.
+- 🚀 **Data-Driven Content**: All text and images are configured in separate JSON-like files.
+- ⚡ **High Performance**: Built on Vite with optimized assets.
+- 📱 **Responsive**: Mobile-first design that looks great on all devices.
+- ✨ **Animations**: Smooth entrance and scroll animations using Framer Motion.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Configuration
 
-## Expanding the ESLint configuration
+For detailed customization instructions, please refer to [CONFIGURATION.md](./CONFIGURATION.md).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/app-landing-template.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd app-landing-template
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+### Build
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Screenshots
+
+### Hero & Stats
+
+![Hero Section](./src/assets/screenshots/Screenshot%20from%202025-12-24%2013-08-07.png)
+
+### Features & Screenshots
+
+![Features Section](./src/assets/screenshots/Screenshot%20from%202025-12-24%2013-08-17.png)
+
+### Pricing & Testimonials
+
+![Pricing Section](./src/assets/screenshots/Screenshot%20from%202025-12-24%2013-08-26.png)
+
+### FAQ & Footer
+
+![FAQ Section](./src/assets/screenshots/Screenshot%20from%202025-12-24%2013-08-32.png)
+
+## License
+
+MIT

@@ -47,7 +47,7 @@ const Pricing = () => {
                     className="flex items-center text-textSecondary"
                   >
                     <svg
-                      className="w-5 h-5 text-accent mr-3 flex-shrink-0"
+                      className="w-5 h-5 text-accent mr-3 shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"

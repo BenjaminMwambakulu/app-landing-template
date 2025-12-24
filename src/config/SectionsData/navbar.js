@@ -11,7 +11,7 @@ export const navbarData = {
     { label: "FAQ", link: "#faq" },
   ],
   cta: {
-    label: "Download",
+    label: "Get Started",
     link: "#download",
   },
 };
