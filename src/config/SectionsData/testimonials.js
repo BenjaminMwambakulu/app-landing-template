@@ -4,14 +4,14 @@ export const testimonialsData = {
     {
       quote:
         "This application changed the way we work. It's intuitive, fast, and reliable.",
-      author: "Alex Johnson",
+      author: "Vamp2o5",
       role: "Freelancer",
       avatar: "https://randomuser.me/api/portraits/men/44.jpg",
     },
     {
       quote:
         "Best template I've ever used. The customization options are endless.",
-      author: "Maria Garcia",
+      author: "Benjamin Mwambakulu",
       role: "Designer",
       avatar: "https://randomuser.me/api/portraits/women/32.jpg",
     },
