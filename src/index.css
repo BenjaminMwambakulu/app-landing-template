@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+:root {
+  /* Default values, overridden by JS */
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+  --color-accent: #3b82f6;
+  --color-background: #ffffff;
+  --color-surface: #f9fafb;
+  --color-text: #111827;
+  --color-textSecondary: #4b5563;
+  --color-border: #e5e7eb;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-primary, sans-serif);
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-text: var(--color-text);
+  --color-text-secondary: var(--color-textSecondary);
+  --color-border: var(--color-border);
+}
