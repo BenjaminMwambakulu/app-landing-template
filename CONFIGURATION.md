@@ -26,7 +26,17 @@ export const theme = {
 };
 ```
 
-## 2. Navigation Bar
+## 2. Favicon
+
+**File:** `public/favicon.svg`
+
+To change the website icon (favicon):
+
+1. Create your own icon file (SVG, PNG, ICO).
+2. Rename it to `favicon.svg` (or whatever format you used, but update `index.html` if you change the format).
+3. Replace the existing `public/favicon.svg` with your new file.
+
+## 3. Navigation Bar
 
 **File:** `src/config/SectionsData/navbar.js`
 
@@ -34,7 +44,7 @@ export const theme = {
 - **links**: Array of navigation links.
 - **cta**: The main "Get Started" button in the top right.
 
-## 3. Hero Section
+## 4. Hero Section
 
 **File:** `src/config/SectionsData/herosection.js`
 
@@ -44,7 +54,7 @@ export const theme = {
 - **primaryCta**: Main call-to-action button.
 - **image**: The large hero image next to the text.
 
-## 4. Stats Section
+## 5. Stats Section
 
 **File:** `src/config/SectionsData/stats.js`
 
@@ -53,13 +63,13 @@ Customize the numbers that appear below the Hero.
 - **label**: The text description (e.g., "Active Users").
 - **value**: The number (e.g., "50K+").
 
-## 5. Screenshots Section
+## 6. Screenshots Section
 
 **File:** `src/config/SectionsData/screenshots.js`
 
 Add URLs to screenshots of your application here. They will appear in a responsive grid.
 
-## 6. Features Section
+## 7. Features Section
 
 **File:** `src/config/SectionsData/features.js`
 
@@ -69,7 +79,7 @@ Add URLs to screenshots of your application here. They will appear in a responsi
   - **title**: Feature branding name.
   - **description**: Short explanation.
 
-## 7. Testimonials, Pricing, FAQ
+## 8. Testimonials, Pricing, FAQ
 
 **Files:**
 
@@ -79,7 +89,7 @@ Add URLs to screenshots of your application here. They will appear in a responsi
 
 Edit these files to update the respective content tiers, reviews, and questions.
 
-## 8. Footer
+## 9. Footer
 
 **File:** `src/config/SectionsData/footer.js`
 

@@ -29,7 +29,7 @@ export const footerData = {
       ],
     },
   ],
-  copyright: "© 2026 AppTemplate. All rights reserved.",
+  copyright: "© 2026 AppTemplate. All rights reserved. Designed by Vamp2o5",
   socials: [
       { platform: "Twitter", link: "#" },
       { platform: "Facebook", link: "#" },
